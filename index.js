@@ -17,9 +17,9 @@ const menu = require("./lib/menu.js");
 const donasi = require("./lib/donasi.js");
 const info = require("./lib/info.js");
 /////////////////
-const BotName = 'TERMUX BOT'; 
-const instagram = 'https://instagram.com/anker_2412'; 
-const whatsapp = 'wa.me/6281368646011'; 
+const BotName = 'Dns Bot'; 
+const instagram = 'https://instagram.com/denssptraa'; 
+const whatsapp = 'https://wa.me/+6285866295942'; 
 const kapanbotaktif = '1 Menit :v'; 
 //const grupch1 = 'belum ada grup'; 
 //const grupch2 = 'belum ada grup' ; 
@@ -35,7 +35,7 @@ const
    ReconnectMode,
    ProxyAgent,
    waChatKey,
-} = require("@anker_2412/baileys");
+} = require("@adiwajshing/baileys");
 var jam = moment().format("HH:mm");
 
 // OCR Library
@@ -70,11 +70,11 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(json.id + ' presence is => ' + json.type)) || console.log('Bot by ig:@anker_2412')
+conn.on('user-presence-update', json => console.log(json.id + ' presence is => ' + json.type)) || console.log('Bot by ig:@denssptraa')
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@anker_2412`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@denssptraa`)
 })
 
 conn.on('message-new', async(m) =>
