@@ -14,7 +14,7 @@ BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
 > pkg install ffmpeg
 > pkg install nodejs
 > apt update && apt upgrade
-> git clone https://github.com/bintoro68/lah
+> git clone https://github.com/ikan2412/lah
 > cd lah
 > bash install.sh
 > npm i node-tesseract-ocr
